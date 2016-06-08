@@ -1,6 +1,2 @@
 CMAKE_MINIMUM_REQUIRED (VERSION 2.8.6)
 PROJECT (test)
-
-LIST (APPEND test_SOURCES
-    test.cpp
-)
