@@ -1,0 +1,5 @@
+version: 0.0.1.{build}
+
+- md build
+- cd build
+- cmake -G '"Visual Studio 14 2015"' -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS='"/clr"'
